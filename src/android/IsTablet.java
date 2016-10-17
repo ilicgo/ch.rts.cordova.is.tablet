@@ -18,7 +18,7 @@
  * Cordova/Phonegap plugin for Android to determine if current device is a tablet
  * @author Dave Alden <dave@workingedge.co.uk>
  */
-package uk.co.workingedge.phonegap.plugin;
+package ch.rts.cordova.is.tablet;
 
 import org.json.JSONArray;
 import org.json.JSONException;
