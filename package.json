@@ -1,0 +1,25 @@
+{
+  "name": "ch.rts.cordova.is.tablet",
+  "version": "1.0.0",
+  "description": "IsTablet Cordova/Phonegap Plugin =================================",
+  "cordova": {
+    "id": "ch.rts.cordova.is.tablet",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilicgo/ch.rts.cordova.is.tablet.git"
+  },
+  "author": "various",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilicgo/ch.rts.cordova.is.tablet/issues"
+  },
+  "homepage": "https://github.com/ilicgo/ch.rts.cordova.is.tablet#readme"
+}
