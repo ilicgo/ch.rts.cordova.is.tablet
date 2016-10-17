@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="ch.rts.cordova.is.tablet" version="1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>IsTablet</name>
+  <js-module name="IsTablet" src="www/IsTablet.js">
+    <clobbers target="cordova.plugins.IsTablet" />
+  </js-module>
+  <platform name="ios">
+    <config-file parent="/*" target="config.xml">
+      <feature name="IsTablet">
+        <param name="ios-package" value="IsTablet" />
+      </feature>
+    </config-file>
+    <source-file src="src/ios/IsTablet.m" />
+  </platform>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="IsTablet">
+        <param name="android-package" value="ch.rts.cordova.is.tablet.IsTablet" />
+      </feature>
+    </config-file>
+    <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+    <source-file src="src/android/IsTablet.java" target-dir="src/ch/rts/cordova/is/tablet/IsTablet" />
+  </platform>
+</plugin>
